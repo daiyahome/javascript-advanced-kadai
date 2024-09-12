@@ -100,6 +100,8 @@ const gameOver = id => {
 
     // タイムアップを表示
     untypedfield.textContent = 'タイムアップ!';
+    typedfield.textContent = '';
+
 
     setTimeout(() => {
 
